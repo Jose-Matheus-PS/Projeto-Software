@@ -1,0 +1,69 @@
+Nome:	 Matheus Tobias Mustaro				RA: 10409259
+Nome: José Victor Scheurich Roling			RA: 10418225
+
+
+1.1 Dê, no mínimo, mais cinco exemplos de como a lei das consequências não intencionais se aplica ao software.
+As consequências não intencionais da tecnologia pode afetar os softwares de diversas formas, por exemplo:
+
+Brechas de segurança = Roubo de dados dos usuários;
+Instabilidade nos servidores = Sem o tratamento correto dos dados, podem ocorrer erros gerando instabilidade nos servidores;
+Problemas com a integridade dos dados = Falhas no tratamento de transmissão de dados, ou pode haver um corrompimento de arquivos;
+Compatibilidade de Hardwares = Diferentes dispositivos com diferentes capacidades, por exemplo, a memória;
+Atualizações nos Dispositivos = Dispositivos mais antigos podem não suportar atualizações.
+
+
+
+1.2 Forneça uma série de exemplos (positivos e negativos) que indiquem o impacto do software em nossa sociedade.
+
+Em relação aos aspectos positivos, softwares são responsáveis por um drástico aumento na praticidade de vários aspectos de nossas vidas. 
+Por conta disso, hoje em dia, podemos resolver vários problemas sem sair de casa, podemos ter um acesso muito mais rápido e fácil a diversos 
+tipos de informação, e fizemos vários avanços em várias áreas de nossas vidas. porém, há também aspectos negativos. hoje em dia, somos muito 
+dependentes de softwares para resolver problemas que, antigamente, estávamos acostumados a resolver sem o uso deles. Isso sem contar o vício 
+em tecnologia que grande parte da população tem hoje em dia.
+
+
+
+1.3 Muitas aplicações modernas mudam frequentemente – antes de serem apresentadas ao usuário e depois da primeira versão ser colocada em uso. 
+Sugira algumas maneiras de construir um software para impedir a deterioração decorrente de mudanças.
+
+Preparar o software e apenas apresentá-lo ao usuário quando ele estiver finalizado e pronto, assim evitando inconsistências e erros no software. 
+Outra possibilidade também é oferecer o serviço para alguns usuários testarem, e caso haja erros, eles podem ser consertados antes de chegar 
+no usuário final.
+
+
+
+1.4 Considere as sete categorias de software apresentadas na Seção 1.1.2. Você acha que a mesma abordagem em relação à engenharia de software 
+pode ser aplicada a cada uma delas? Justifique sua resposta.
+
+eu acredito que sim, no sentido de todos esses tipos de software necessitarem das mesmas etapas (coleta de requisitos, planejamento, diagrama, etc), 
+por mais que cada um deles deva ser abordado considerando as nuances de cada tipo específico de software.
+
+
+
+1.5 À medida que o software invade todos os setores, riscos ao público (devido a programas com imperfeições) passam a ser uma preocupação cada vez maior. 
+Crie um cenário o mais catastrófico possível, porém realista, em que a falha de um programa de computador poderia causar um grande dano em 
+termos econômicos ou humanos.
+
+Alguns programas de mísseis são comandados por softwares, além de haver outras formas de controlar os mísseis, seja por chaves ou por alguém operando, 
+existem alguns que são controlados pelo próprio programa. Caso haja uma guerra, ou uma falha no sistema, que indique que há um ataque chegando a alguma 
+base que armazena esses mísseis, esse erro de software pode levar a decisões erradas do exército e do governo, fazendo com que esses mísseis 
+sejam lançados, além disso, pode haver um problema no software fazendo com que todos os mísseis e bombas sejam acionadas, levando isso a 
+uma catástrofe global.
+
+
+
+1.6 Descreva uma metodologia de processo com suas próprias palavras. Ao afirmarmos que atividades de modelagem se aplicam a todos os projetos, 
+isso significa que as mesmas tarefas são aplicadas a todos os projetos, independentemente de seu tamanho e complexidade? Explique.
+
+Metodologia de processo é um conjunto de etapas que se segue para projetar um software, desde o planejamento até a execução. Eu acredito que, 
+por mais que essas atividades de modelagem possam ser aplicadas em todos os projetos, isso não significa que as tarefas serão necessariamente 
+as mesmas em todos eles, pois cada tipo de projeto tem nuances individuais que devem ser consideradas para que possamos projetá-lo da forma 
+mais eficiente possível, e eu não acredito que um único método inflexível e restrito possa se aplicar identicamente a todos eles.
+
+
+
+1.7 As atividades de apoio ocorrem ao longo do processo de software. Você acredita que elas são aplicadas de forma homogênea ao longo do processo 
+ou algumas delas são concentradas em uma ou mais atividades da metodologia?
+
+Algumas atividades de apoio devem ser padrão para todos os processos de software, porém, dependendo do processo e do software que está sendo 
+desenvolvido, uma ou mais atividades de metodologia diferentes do padrão, podem ser necessárias para aquele contexto.
