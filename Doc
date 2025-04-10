@@ -1,0 +1,141 @@
+FASE I. Documentar a Análise de Requisitos: 
+
+Estrutura de um Documento de Requisitos 
+Introdução: Objetivos do sistema, escopo e público-alvo. 
+Descrição Geral: Contexto do sistema. 
+Requisitos Funcionais e Não Funcionais: Listagem detalhada (tabela). 
+Interfaces do Sistema: Telas e interações principais. 
+Restrições: Tecnológicas, legais e operacionais. 
+Critérios de Aceitação: Condições para validar o sistema.
+
+
+ID
+Requisito funcional
+Descrição
+
+RF-01
+Interface para gerenciamento de frotas de drones 
+O sistema deverá fornecer um aplicativo que permita a configuração e o gerenciamento dos drones.
+
+
+RF-02
+Controle remoto e autônomo dos drones
+O sistema deve permitir que os drones sejam controlados manualmente em tempo real ou de forma pré-definida.
+
+
+RF-03
+Dashboard em tempo real com telemetria
+O sistema deve fornecer um dashboard com informações de telemetria dos drones, como velocidade, altitude, 
+qualidade do sinal, bateria, etc. E mandar alertas em caso de bateria fraca, sinal fraco, ou outras 
+condições críticas.
+
+
+RF-04
+Sensoriamento do ambiente via LIDAR, câmeras e GPS
+O sistema deve coletar informações do ambiente por meio de sensores LIDAR, câmeras e GPS, para mapear o
+ambiente ao redor dos drones e identificar alvos. Isso irá garantir navegação precisa em ambientes perigosos.
+
+
+RF-05
+Detecção e evasão de ameaças em tempo real
+O sistema deve detectar obstáculos por meio dos sensores embutidos, e reagir em tempo real, evitando 
+obstáculos e mísseis anti-aéreos
+
+
+RF-06
+Operação autônoma baseada em redes neurais
+O sistema deverá utilizar redes neurais para tomar decisões com tomada de decisão própria, como 
+detecção de objetos
+
+
+RF-07
+Mecanismos de fallback para evitar perda de conexão.
+Os drones poderão se comunicar com estações terrestres que serão instaladas no ambiente a ser 
+percorrido por meio de redes de rádio de alta frequência, caso não consigam se comunicar 
+diretamente com o sistema padrão de comunicação.
+
+
+RF-08
+Logs de missões realizadas e eventos críticos 
+O sistema deverá armazenar informações sobre as últimas missões, incluindo objetivos 
+concluídos e falhas que ocorreram e que precisam ser consertadas.
+
+
+RF-09
+Comunicação segura
+Os dados comunicados entre os drones e a central de controle deverão ser protegidos com 
+criptografia e assinaturas digitais.
+
+
+RF-10
+Autenticação de operadores via biometria e autenticação multifator 
+O sistema deverá exigir reconhecimento biométrico e facial para autorizar um operador
+a utilizar o sistema.
+
+
+RF-11
+Monitoramento de processos do SO embarcado para evitar falhas 
+Os processos do SO embarcado dos drones devem ser monitorados em tempo real para detectar 
+falhas e comportamentos inesperados do SO.
+
+=============================================================================================================
+ID
+Requisito não funcional
+Descrição
+
+RNF-01
+Disponibilidade
+O sistema deverá estar disponível 24/7, para garantir que ele possa ser utilizado em caso 
+de missões inesperadas ou ameaças em tempo real.
+
+
+RNF-02
+Banco de dados distribuído 
+Um banco de dados distribuído e replicado globalmente deverá estar disponível para 
+garantir acesso rápido a informações estratégicas
+
+
+RNF-03
+Segurança 
+Os dados comunicados entre os drones e a central de controle deverão ser protegidos 
+com criptografia e assinaturas digitais.
+
+
+RNF-04
+Desempenho
+A comunicação sistema-drone deverá ser rápida. A latência não poderá ultrapassar 50ms 
+em condições normais.
+
+
+RNF-05
+Escalabilidade
+O sistema deverá suportar a adição de novos drones e servidores sem perdas significativas 
+em desempenho e segurança.
+
+
+RNF-06
+Boas práticas de segurança cibernética
+Para garantir o mais alto nível de segurança do sistema, ele deverá atender a padrões 
+de segurança cibernética como ISO 27001 e NIST 800-53.
+
+
+RNF-07
+Resiliência
+Após uma falha, o sistema deverá se recuperar em até 3 segundos sem a perda de nenhum dado.
+
+
+RNF-08
+Recuperação de falhas
+O sistema deve permitir balanceamento de carga e replicação, com o objetivo de evitar que 
+pontos únicos de falha ocorram
+
+
+RNF-09
+Log e Auditoria
+As informações dos logs das missões devem ser armazenadas e mantidas no sistema por 10 anos, 
+e a alteração e exclusão delas deve ser proibida, por questões de segurança.
+
+
+
+
+
