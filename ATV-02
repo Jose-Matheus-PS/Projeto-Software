@@ -1,0 +1,111 @@
+MACK INOVA - Projeto de chatbot inteligente
+
+FUNCIONALIDADES PRINCIPAIS:
+Entender linguagem humana (NLP)
+Aprender com interações passadas (machine learning)
+Permitir a aplicação em outros aplicativos, como o Whatsapp.
+Direcionar para atendimento humano, caso necessário
+
+REQUISITOS DE UX:
+
+DESIGN THINKING:
+Empatia: Iremos considerar as condições de usuários de chatbots do mundo moderno, as reclamações que eles geralmente têm e o que eles desejam que fosse diferente nas IA’s atuais. Para isso, faremos pesquisas com usuários frequentes de chatbots. 
+Definição: Após nossa pesquisa, descobrimos que estamos em um tempo em que as pessoas estão cada vez mais com pressa e valorizam cada vez mais a facilidade de compreensão, a praticidade e a educação dos chats. A pessoa típica (persona) que criamos para representar isso é o João da Silva, 30 anos, gerente de vendas, precisa de respostas rápidas e práticas. Tendo isso em vista, iremos enfatizar: 
+respostas bem explicadas;
+respostas simples e diretas;
+linguagem educada do chat ao formular as respostas;
+respostas úteis que resolvam o problema do usuário de forma prática.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Requisitos de UX a serem implementados:
+
+Requisitos Funcionais:
+Resposta automática por chatbot inteligente: O sistema deve ser capaz de responder a perguntas de clientes com alta precisão e em linguagem natural.
+Aprendizado contínuo: O chatbot deve aprender com interações anteriores para melhorar suas respostas.
+Integração multicanal: O chatbot deve funcionar em diferentes plataformas (site, WhatsApp, redes sociais, etc.).
+Detecção de intenção e sentimento: Deve reconhecer a intenção do usuário e adaptar a resposta com empatia.
+Escalonamento para atendimento humano: Quando necessário, o chatbot deve redirecionar o cliente para um atendente humano.
+Sistema de feedback do usuário: O usuário deve poder avaliar as respostas recebidas.
+
+Requisitos de Usabilidade:
+Interface intuitiva: O chatbot deve ser fácil de usar, com fluxos claros de interação.
+Tempo de resposta rápido: As respostas devem ser geradas em poucos segundos.
+Mensagens claras e objetivas: A linguagem utilizada deve ser compreensível por todos os públicos.
+Histórico de conversa visível: O usuário deve poder visualizar as mensagens trocadas com o chatbot.
+Navegação consistente: A interação deve manter um padrão de comportamento entre diferentes canais.
+
+
+
+Requisitos de Acessibilidade:
+Compatibilidade com leitores de tela: O chatbot deve funcionar corretamente com tecnologias assistivas.
+Contraste de cores adequado: A interface deve ter contraste suficiente para pessoas com deficiência visual.
+Suporte a comandos de voz e texto: Para usuários com limitações motoras ou visuais.
+Fonte legível e escalável: Permitir que o usuário aumente o tamanho da fonte facilmente.
+Teclado como meio de navegação: Todas as funcionalidades devem ser acessíveis por teclado.
+Requisitos de Desejabilidade:
+Personalidade do chatbot: Deve ter um tom amigável, empático e coerente com os valores da marca.
+Customização da aparência: Permitir que o cliente escolha entre temas ou estilos visuais do chatbot.
+Mensagens com tom humano e caloroso: Evitar linguagem robótica e promover conexão emocional.
+Microinterações agradáveis: Feedbacks sutis e animados durante a conversa (ex: typing animation, emojis, etc.).
+Experiência memorável: Criar uma jornada de atendimento fluida, que encante o usuário.
+
+
+
+Métricas de qualidade de software:
+Desempenho e Eficiência
+Avaliam a capacidade de resposta e uso de recursos do sistema.
+Tempo médio de resposta (Response Time) = Mede quanto tempo o chatbot leva para responder a uma interação.
+Tempo de atividade (Uptime) = Mede a disponibilidade do sistema para o usuário.
+Carga suportada (Throughput) = Mede a capacidade do sistema de atender múltiplos usuários ao mesmo tempo.
+Confiabilidade
+Refere-se à estabilidade e taxa de falhas do sistema.
+Taxa de erro de resposta (Error Rate) = Percentual de respostas erradas, incompletas ou falhas técnicas.
+Taxa de escalonamento para humanos = Mede quantas vezes o chatbot precisou transferir para um atendente humano (por falha ou limitação).
+Taxa de falhas do sistema = Indica o número de quedas ou interrupções críticas.
+
+
+Usabilidade
+Mede o quão fácil e agradável é usar o sistema.
+Tempo de conclusão de tarefa = Avalia quanto tempo o usuário leva para resolver seu problema com o chatbot.
+Taxa de sucesso da tarefa = Percentual de usuários que conseguem atingir seus objetivos (ex: rastrear pedido, tirar dúvidas, etc.).
+Pontuação de satisfação do usuário (CSAT) = Coletada por meio de avaliação no fim da conversa.
+Acessibilidade
+Avalia o quão bem o sistema atende pessoas com deficiências.
+Conformidade com WCAG 2.1 (nível AA) = Padrão internacional de acessibilidade.
+Acessibilidade via teclado e leitores de tela = Validado com ferramentas como NVDA ou VoiceOver.
+Taxa de reclamações por acessibilidade = Mede se usuários enfrentam barreiras de acesso.
+Qualidade Conversacional (IA)
+Avalia a precisão e empatia nas interações do chatbot.
+Precisão de detecção de intenção (Intent Recognition Accuracy) = Mede se o chatbot entende corretamente o que o usuário quer.
+Pontuação de empatia percebida = Usuários avaliam o “tom humano” e empático do atendimento.
+Frequência de respostas fora de contexto = Respostas que não fazem sentido para o que foi perguntado.
+
+
